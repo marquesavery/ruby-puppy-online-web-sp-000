@@ -9,8 +9,8 @@ class Dog
 
 
   def initialize(name)
-    # binding.pry
     @name = name
+    binding.pry
     save
   end
 
