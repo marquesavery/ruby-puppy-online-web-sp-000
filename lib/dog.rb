@@ -29,7 +29,7 @@ class Dog
 
   def self.print_all
     @@all.each do |name|
-      puts object_name(name)
+      puts object_id(name)
     end
   end
 
