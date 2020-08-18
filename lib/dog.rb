@@ -11,12 +11,13 @@ class Dog
   def initialize(name)
     # binding.pry
     @name = name
-    save
+    @@all << name 
+    # save
   end
 
-  def save
-    @@all << @name
-  end
+  # def save
+  #   @@all << @name
+  # end
 
   def self.all
     @@all
