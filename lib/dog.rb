@@ -5,6 +5,7 @@ class Dog
 
 
   def initialize(name)
+    binding.pry
     @name = name
     save
   end
