@@ -29,6 +29,7 @@ class Dog
 
   def self.print_all
     @@all.each do |name|
+      binding.pry
       puts name.instance_variable_get
     end
   end
