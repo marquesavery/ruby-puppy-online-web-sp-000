@@ -29,7 +29,7 @@ class Dog
 
   def self.print_all
     @@all.each do |name|
-      puts ObjectSpace.name
+      puts ObjectSpace._id2ref(name)
     end
   end
 
